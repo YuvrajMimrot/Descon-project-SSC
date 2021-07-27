@@ -1,0 +1,202 @@
+
+
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)
+ File: E:\Descon\Assignments\Beams\Final Final.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2021/07/26  11:19:58
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1716
+    WITH RESTRAINTS                        =          28
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         920
+ NUMBER OF SHELL ELEMENTS                  =        1446
+ NUMBER OF CONSTRAINTS/WELDS               =           4
+ NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          10
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       3.877 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      11:19:58
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =          72
+ REDUCTION OF CONSTRAINTS AND RESTRAINTS:
+ NUMBER OF
+   CONSTRAINT MASTER DOF BEFORE REDUCTION  =          12
+   COUPLED CONSTRAINT/RESTRAINT MASTER DOF =           0
+   CONSTRAINT MASTER DOF AFTER REDUCTION   =          12
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        11:19:59
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        9861
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      251535
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  11:19:59
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           9
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           9
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: DEAD
+ CASE: WALL
+ CASE: FLOOR FINISH
+ CASE: PARTITION
+ CASE: PARAPET WALL
+ CASE: LIVE
+ CASE: ROOF LIVE
+ CASE: EQX
+ CASE: EQY
+
+
+ E I G E N   M O D A L   A N A L Y S I S                                11:19:59
+
+ CASE: MODAL
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ NUMBER OF STIFFNESS DEGREES OF FREEDOM    =        9861
+ NUMBER OF MASS DEGREES OF FREEDOM         =        4889
+ MAXIMUM NUMBER OF EIGEN MODES SOUGHT      =          12
+ MINIMUM NUMBER OF EIGEN MODES SOUGHT      =           1
+ NUMBER OF RESIDUAL-MASS MODES SOUGHT      =           0
+ NUMBER OF SUBSPACE VECTORS USED           =          24
+ RELATIVE CONVERGENCE TOLERANCE            =    1.00E-09
+
+ FREQUENCY SHIFT  (CENTER) (CYC/TIME)      =     .000000
+ FREQUENCY CUTOFF (RADIUS) (CYC/TIME)      =  -INFINITY-
+ ALLOW AUTOMATIC FREQUENCY SHIFTING        =         YES
+
+
+ Original stiffness at shift : EV= 0.0000000E+00, f=     .000000, T=  -INFINITY-
+ Number of eigenvalues below shift =      0
+ Found mode      1 of     12:  EV= 7.4667131E+01, f=    1.375260, T=    0.727135
+ Found mode      2 of     12:  EV= 3.3945946E+02, f=    2.932338, T=    0.341025
+ Found mode      3 of     12:  EV= 4.5367679E+02, f=    3.389951, T=    0.294990
+ Found mode      4 of     12:  EV= 6.8778946E+02, f=    4.173956, T=    0.239581
+ Found mode      5 of     12:  EV= 7.0701608E+02, f=    4.231894, T=    0.236301
+ Found mode      6 of     12:  EV= 2.2315930E+03, f=    7.518438, T=    0.133006
+ Found mode      7 of     12:  EV= 2.5160543E+03, f=    7.983258, T=    0.125262
+ Found mode      8 of     12:  EV= 2.5923962E+03, f=    8.103466, T=    0.123404
+ Found mode      9 of     12:  EV= 2.6020178E+03, f=    8.118490, T=    0.123176
+ Found mode     10 of     12:  EV= 2.6625176E+03, f=    8.212330, T=    0.121768
+ Found mode     11 of     12:  EV= 2.8378471E+03, f=    8.478414, T=    0.117947
+ Found mode     12 of     12:  EV= 4.7830827E+03, f=   11.007129, T=    0.090850
+
+ NUMBER OF EIGEN MODES FOUND               =          12
+ NUMBER OF ITERATIONS PERFORMED            =           9
+ NUMBER OF STIFFNESS SHIFTS                =           0
+
+
+ A N A L Y S I S   C O M P L E T E                          2021/07/26  11:20:01
+
+
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)
+ File: E:\Descon\Assignments\Beams\Final Final.LOG
+
+
+
+
+ B E G I N   A N A L Y S I S                                2021/07/26  11:20:04
+
+
+ RUNNING ANALYSIS AS A SEPARATE PROCESS
+ USING THE ADVANCED SOLVER (PROVIDES LIMITED INSTABILITY INFORMATION)
+
+ NUMBER OF JOINTS                          =        1716
+    WITH RESTRAINTS                        =          28
+ NUMBER OF FRAME/CABLE/TENDON ELEMENTS     =         920
+ NUMBER OF SHELL ELEMENTS                  =        1446
+ NUMBER OF CONSTRAINTS/WELDS               =           4
+ NUMBER OF LOAD PATTERNS                   =           9
+ NUMBER OF ACCELERATION LOADS              =           9
+ NUMBER OF LOAD CASES                      =          10
+
+ ADDRESSABLE PHYSICAL MEMORY (RAM)         =       3.877 GB
+
+ PARALLELIZATION OF ANALYSIS OPERATIONS:
+ (Env. variable SAPFIRE_NUM_THREADS        =           0)
+ NUMBER OF THREADS: STATE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: STIFFNESS (AUTOMATIC)  =           2
+ NUMBER OF THREADS: EVENT (AUTOMATIC)      =           2
+ NUMBER OF THREADS: MOVE (AUTOMATIC)       =           2
+ NUMBER OF THREADS: RESPONSE (AUTOMATIC)   =           2
+ NUMBER OF THREADS: SOLVE (AUTOMATIC)      =           2
+ NUMBER OF THREADS: FORM (AUTOMATIC)       =           2
+
+
+ E L E M E N T   F O R M A T I O N                                      11:20:04
+
+
+ NUMBER OF COUPLED CONSTRAINT EQUATIONS    =          72
+ REDUCTION OF CONSTRAINTS AND RESTRAINTS:
+ NUMBER OF
+   CONSTRAINT MASTER DOF BEFORE REDUCTION  =          12
+   COUPLED CONSTRAINT/RESTRAINT MASTER DOF =           0
+   CONSTRAINT MASTER DOF AFTER REDUCTION   =          12
+
+
+ L I N E A R   E Q U A T I O N   S O L U T I O N                        11:20:04
+
+ FORMING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF EQUILIBRIUM EQUATIONS     =        9861
+ NUMBER OF NON-ZERO STIFFNESS TERMS        =      251535
+
+ ---------------------------------
+ BASIC STABILITY CHECK FOR LINEAR LOAD CASES:
+    NUMBER OF NEGATIVE STIFFNESS EIGENVALUES SHOULD BE ZERO FOR STABILITY.
+    (NOTE: FURTHER CHECKS SHOULD BE CONSIDERED AS DEEMED NECESSARY,
+     SUCH AS REVIEWING EIGEN MODES FOR MECHANISMS AND RIGID-BODY MOTION)
+
+    NUMBER OF NEGATIVE EIGENVALUES         =           0,  OK.
+ ---------------------------------
+
+
+ L I N E A R   S T A T I C   C A S E S                                  11:20:05
+
+ USING STIFFNESS AT ZERO (UNSTRESSED) INITIAL CONDITIONS
+
+ TOTAL NUMBER OF CASES TO SOLVE            =           2
+ NUMBER OF CASES TO SOLVE PER BLOCK        =           2
+
+ LINEAR STATIC CASES TO BE SOLVED:
+
+ CASE: EQX
+ CASE: EQY
+
+
+ A N A L Y S I S   C O M P L E T E                          2021/07/26  11:20:05

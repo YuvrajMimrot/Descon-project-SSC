@@ -1,0 +1,138 @@
+ SAP2000 v20.2.0 Ultimate 64-bit (Analysis Build 9663/64)                       
+ File: E:\Descon\Assignments\Beams\Final Final.OUT                              
+                                                                     
+                                                                       
+
+ DIAPH1_10., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            2.504688    2.504688     .000000     .000000     .000000   11250.134
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     80.000000   80.000000   80.000000
+     Y     15.000000   15.000000   15.000000
+     Z     10.000000   10.000000   10.000000
+
+ DIAPH2_20., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            2.504688    2.504688     .000000     .000000     .000000   11250.134
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     80.000000   80.000000   80.000000
+     Y     15.000000   15.000000   15.000000
+     Z     20.000000   20.000000   20.000000
+
+ DIAPH3_30., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            6.391443    6.391443     .000000     .000000     .000000   23655.529
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     80.000000   80.000000   80.000000
+     Y     15.000000   15.000000   15.000000
+     Z     30.000000   30.000000   30.000000
+
+ DIAPH4_50., CONSTR = RIGID, DOF = U1 U2 R3
+
+                     LOCAL COORDINATE SYSTEM FOR CONSTRAINT MASTER
+  GLOBAL          U1          U2          U3          R1          R2          R3
+     X      1.000000     .000000     .000000    1.000000     .000000     .000000
+     Y       .000000    1.000000     .000000     .000000    1.000000     .000000
+     Z       .000000     .000000    1.000000     .000000     .000000    1.000000
+
+                     TRANSLATIONAL MASS AND MASS MOMENTS OF INERTIA
+                  U1          U2          U3          R1          R2          R3
+            2.532650    2.532650     .000000     .000000     .000000   11326.330
+
+                     CENTER OF MASS
+  GLOBAL          U1          U2          U3
+     X     80.000000   80.000000   80.000000
+     Y     15.000000   15.000000   15.000000
+     Z     50.000000   50.000000   50.000000
+
+ D I S P L A C E M E N T   D E G R E E S   O F   F R E E D O M
+
+         (A) = Active DOF, equilibrium equation
+         (-) = Restrained DOF, reaction computed
+         (+) = Constrained DOF
+         (>) = External substructure DOF
+         ( ) = Null DOF
+
+  JOINTS              UX  UY  UZ  RX  RY  RZ
+   ~1576 TO    ~658    A   A   A   A   A   A
+     165 TO     162    +   +   A   A   A   +
+     116 TO     107    -   -   -   -   -   -
+     104 TO      71    +   +   A   A   A   +
+   ~1567 TO    ~625    A   A   A   A   A   A
+     168 TO     161    +   +   A   A   A   +
+     115 TO     106    -   -   -   -   -   -
+     103 TO      70    +   +   A   A   A   +
+   ~1542 TO    ~594    A   A   A   A   A   A
+     171 TO     160    +   +   A   A   A   +
+     114 TO     105    -   -   -   -   -   -
+     102 TO      99    +   +   A   A   A   +
+      96               -   -   -   -   -   -
+      93 TO      72    +   +   A   A   A   +
+      69               -   -   -   -   -   -
+     134 TO    ~135    A   A   A   A   A   A
+     159 TO     150    +   +   A   A   A   +
+      68               -   -   -   -   -   -
+      65 TO      62    +   +   A   A   A   +
+      59               -   -   -   -   -   -
+      56 TO      32    +   +   A   A   A   +
+      31               -   -   -   -   -   -
+      26               +   +   A   A   A   +
+      25               -   -   -   -   -   -
+      20               +   +   A   A   A   +
+      19               -   -   -   -   -   -
+      14               +   +   A   A   A   +
+      13               -   -   -   -   -   -
+   ~1374 TO     ~34    A   A   A   A   A   A
+     158 TO      30    +   +   A   A   A   +
+      29               -   -   -   -   -   -
+      24               +   +   A   A   A   +
+      23               -   -   -   -   -   -
+      18               +   +   A   A   A   +
+      17               -   -   -   -   -   -
+      12               +   +   A   A   A   +
+      11               -   -   -   -   -   -
+   ~1345 TO      ~3    A   A   A   A   A   A
+     157 TO      28    +   +   A   A   A   +
+      27               -   -   -   -   -   -
+      22               +   +   A   A   A   +
+      21               -   -   -   -   -   -
+      16               +   +   A   A   A   +
+      15               -   -   -   -   -   -
+      10               +   +   A   A   A   +
+       9               -   -   -   -   -   -
+    NULL                                    
+
+  CONSTRAINTS         U1  U2  U3  R1  R2  R3
+ DIAPH1_ TO DIAPH2_    A   A               A
+ DIAPH3_                                    
+ DIAPH4_               A   A               A
